@@ -27,21 +27,114 @@
       <img src="shoe1.jpg" alt="RPN Runner">
       <h3>RPN Runner</h3>
       <p class="price">₹2,499</p>
-      <a href="https://wa.me/7909469621" class="btn">Buy Now</a>
+      <section class="order-form">
+  <h2>Place Your Order</h2>
+
+  <form onsubmit="sendOrder(); return false;">
+    <input type="text" id="name" placeholder="Your Name" required>
+
+    <input type="tel" id="phone" placeholder="Phone Number" required>
+
+    <textarea id="address" placeholder="Full Address" required></textarea>
+
+    <button type="submit">Order on WhatsApp</button>
+  </form>
+</section>
+
+<script>
+  function sendOrder() {
+    var name = document.getElementById("name").value;
+    var phone = document.getElementById("phone").value;
+    var address = document.getElementById("address").value;
+
+    var message = 
+      "New Order%0A" +
+      "Name: " + name + "%0A" +
+      "Phone: " + phone + "%0A" +
+      "Address: " + address;
+
+    var whatsappNumber = "91XXXXXXXXXX"; // ← YOUR WhatsApp number
+    var url = "https://wa.me/" + whatsappNumber + "?text=" + message;
+
+    window.open(url, "_blank");
+  }
+</script>ass="btn">Buy Now</a>
     </div>
 
     <div class="product-card">
       <img src="shoe2.jpg" alt="RPN Street">
       <h3>RPN Street</h3>
       <p class="price">₹1,999</p>
-      <a href="https://wa.me/7909469621" class="btn">Buy Now</a>
+      <section class="order-form">
+  <h2>Place Your Order</h2>
+
+  <form onsubmit="sendOrder(); return false;">
+    <input type="text" id="name" placeholder="Your Name" required>
+
+    <input type="tel" id="phone" placeholder="Phone Number" required>
+
+    <textarea id="address" placeholder="Full Address" required></textarea>
+
+    <button type="submit">Order on WhatsApp</button>
+  </form>
+</section>
+
+<script>
+  function sendOrder() {
+    var name = document.getElementById("name").value;
+    var phone = document.getElementById("phone").value;
+    var address = document.getElementById("address").value;
+
+    var message = 
+      "New Order%0A" +
+      "Name: " + name + "%0A" +
+      "Phone: " + phone + "%0A" +
+      "Address: " + address;
+
+    var whatsappNumber = "91XXXXXXXXXX"; // ← YOUR WhatsApp number
+    var url = "https://wa.me/" + whatsappNumber + "?text=" + message;
+
+    window.open(url, "_blank");
+  }
+</script>ass="btn">Buy Now</a>
     </div>
 
     <div class="product-card">
       <img src="shoe3.jpg" alt="RPN Sport">
       <h3>RPN Sport</h3>
       <p class="price">₹2,299</p>
-      <a href="https://wa.me/7909469621" class="btn">Buy Now</a>
+      <section class="order-form">
+  <h2>Place Your Order</h2>
+
+  <form onsubmit="sendOrder(); return false;">
+    <input type="text" id="name" placeholder="Your Name" required>
+
+    <input type="tel" id="phone" placeholder="Phone Number" required>
+
+    <textarea id="address" placeholder="Full Address" required></textarea>
+
+    <button type="submit">Order on WhatsApp</button>
+  </form>
+</section>
+
+<script>
+  function sendOrder() {
+    var name = document.getElementById("name").value;
+    var phone = document.getElementById("phone").value;
+    var address = document.getElementById("address").value;
+
+    var message = 
+      "New Order%0A" +
+      "Name: " + name + "%0A" +
+      "Phone: " + phone + "%0A" +
+      "Address: " + address;
+
+    var whatsappNumber = "91XXXXXXXXXX"; // ← YOUR WhatsApp number
+    var url = "https://wa.me/" + whatsappNumber + "?text=" + message;
+
+    window.open(url, "_blank");
+  }
+</script>ass="btn">Buy Now</a>
     </div>
 
   </div>
